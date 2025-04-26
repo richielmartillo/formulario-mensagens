@@ -99,3 +99,21 @@ input[type="submit"] {
     color: #000;
   }
   
+  .sucesso {
+    margin-top: 20px;
+    color: #00ff00; /* verde neon */
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+    animation: piscar 1s infinite alternate;
+}
+
+/* Animação para piscar */
+@keyframes piscar {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
